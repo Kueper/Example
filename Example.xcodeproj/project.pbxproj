@@ -7,13 +7,93 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D0E7BBF71E4E2D8700A5E235 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BBF61E4E2D8700A5E235 /* AppDelegate.swift */; };
-		D0E7BBF91E4E2D8700A5E235 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BBF81E4E2D8700A5E235 /* ViewController.swift */; };
-		D0E7BBFC1E4E2D8700A5E235 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0E7BBFA1E4E2D8700A5E235 /* Main.storyboard */; };
 		D0E7BBFE1E4E2D8700A5E235 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0E7BBFD1E4E2D8700A5E235 /* Assets.xcassets */; };
 		D0E7BC011E4E2D8700A5E235 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0E7BBFF1E4E2D8700A5E235 /* LaunchScreen.storyboard */; };
 		D0E7BC0C1E4E2D8700A5E235 /* ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BC0B1E4E2D8700A5E235 /* ExampleTests.swift */; };
 		D0E7BC171E4E2D8700A5E235 /* ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BC161E4E2D8700A5E235 /* ExampleUITests.swift */; };
+		D0E7BC2F1E4E2DBF00A5E235 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BC241E4E2DBF00A5E235 /* UIView+Extensions.swift */; };
+		D0E7BC301E4E2DBF00A5E235 /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BC251E4E2DBF00A5E235 /* Array+Extensions.swift */; };
+		D0E7BC311E4E2DBF00A5E235 /* UIButton+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BC261E4E2DBF00A5E235 /* UIButton+Extensions.swift */; };
+		D0E7BC321E4E2DBF00A5E235 /* Calendar+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BC271E4E2DBF00A5E235 /* Calendar+Extensions.swift */; };
+		D0E7BC331E4E2DBF00A5E235 /* Int+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BC281E4E2DBF00A5E235 /* Int+Extensions.swift */; };
+		D0E7BC341E4E2DBF00A5E235 /* UIFont+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BC291E4E2DBF00A5E235 /* UIFont+Extensions.swift */; };
+		D0E7BC351E4E2DBF00A5E235 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BC2A1E4E2DBF00A5E235 /* String+Extensions.swift */; };
+		D0E7BC361E4E2DBF00A5E235 /* CoreGraphics+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BC2B1E4E2DBF00A5E235 /* CoreGraphics+Extensions.swift */; };
+		D0E7BC371E4E2DBF00A5E235 /* Dictionary+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BC2C1E4E2DBF00A5E235 /* Dictionary+Extensions.swift */; };
+		D0E7BC381E4E2DBF00A5E235 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BC2D1E4E2DBF00A5E235 /* Date+Extensions.swift */; };
+		D0E7BC391E4E2DBF00A5E235 /* DateFormatter+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BC2E1E4E2DBF00A5E235 /* DateFormatter+Extensions.swift */; };
+		D0E7BC421E4E2DCE00A5E235 /* Colour.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BC3B1E4E2DCE00A5E235 /* Colour.swift */; };
+		D0E7BC431E4E2DCE00A5E235 /* KeyboardDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BC3C1E4E2DCE00A5E235 /* KeyboardDelegates.swift */; };
+		D0E7BC441E4E2DCE00A5E235 /* ProfileGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BC3D1E4E2DCE00A5E235 /* ProfileGenerator.swift */; };
+		D0E7BC451E4E2DCE00A5E235 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BC3E1E4E2DCE00A5E235 /* Constant.swift */; };
+		D0E7BC461E4E2DCE00A5E235 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BC3F1E4E2DCE00A5E235 /* Reachability.swift */; };
+		D0E7BC471E4E2DCE00A5E235 /* GlobalFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BC401E4E2DCE00A5E235 /* GlobalFunctions.swift */; };
+		D0E7BC481E4E2DCE00A5E235 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BC411E4E2DCE00A5E235 /* Constraint.swift */; };
+		D0E7BC4C1E4E2DE500A5E235 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BC4B1E4E2DE500A5E235 /* Model.swift */; };
+		D0E7BC4F1E4E2DF100A5E235 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BC4E1E4E2DF100A5E235 /* AppDelegate.swift */; };
+		D0E7BC511E4E2DFF00A5E235 /* PlaceholderCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BC501E4E2DFF00A5E235 /* PlaceholderCollectionView.swift */; };
+		D0E7BC571E4E2E1100A5E235 /* PlaceholderGroupedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BC531E4E2E1100A5E235 /* PlaceholderGroupedTableViewController.swift */; };
+		D0E7BC581E4E2E1100A5E235 /* PlaceholderTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BC541E4E2E1100A5E235 /* PlaceholderTableViewController.swift */; };
+		D0E7BC591E4E2E1100A5E235 /* SelectionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BC551E4E2E1100A5E235 /* SelectionTableViewController.swift */; };
+		D0E7BC5A1E4E2E1100A5E235 /* BaseButtonGroupedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BC561E4E2E1100A5E235 /* BaseButtonGroupedTableViewController.swift */; };
+		D0E7BC5E1E4E2E2200A5E235 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BC5C1E4E2E2200A5E235 /* CameraViewController.swift */; };
+		D0E7BC5F1E4E2E2200A5E235 /* InterfaceCameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BC5D1E4E2E2200A5E235 /* InterfaceCameraViewController.swift */; };
+		D0E7BC641E4E2E3200A5E235 /* PlaceholderPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BC611E4E2E3200A5E235 /* PlaceholderPageViewController.swift */; };
+		D0E7BC651E4E2E3200A5E235 /* PlaceholderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BC621E4E2E3200A5E235 /* PlaceholderViewController.swift */; };
+		D0E7BC661E4E2E3200A5E235 /* BaseButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BC631E4E2E3200A5E235 /* BaseButtonViewController.swift */; };
+		D0E7BC6A1E4E2E4400A5E235 /* EditPropertyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BC681E4E2E4400A5E235 /* EditPropertyViewController.swift */; };
+		D0E7BC6B1E4E2E4400A5E235 /* EditMultiplePropertyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BC691E4E2E4400A5E235 /* EditMultiplePropertyViewController.swift */; };
+		D0E7BC6F1E4E2E5400A5E235 /* AddNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BC6D1E4E2E5400A5E235 /* AddNoteViewController.swift */; };
+		D0E7BC701E4E2E5500A5E235 /* PlaceholderWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BC6E1E4E2E5400A5E235 /* PlaceholderWebViewController.swift */; };
+		D0E7BC7B1E4E2E6400A5E235 /* PlaceholderPresentableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BC721E4E2E6400A5E235 /* PlaceholderPresentableViewController.swift */; };
+		D0E7BC7C1E4E2E6400A5E235 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BC731E4E2E6400A5E235 /* LoadingViewController.swift */; };
+		D0E7BC7D1E4E2E6400A5E235 /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BC741E4E2E6400A5E235 /* DatePickerViewController.swift */; };
+		D0E7BC7E1E4E2E6400A5E235 /* DoubleDatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BC751E4E2E6400A5E235 /* DoubleDatePickerViewController.swift */; };
+		D0E7BC7F1E4E2E6400A5E235 /* NotificationPromptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BC761E4E2E6400A5E235 /* NotificationPromptViewController.swift */; };
+		D0E7BC801E4E2E6400A5E235 /* ActionSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BC771E4E2E6400A5E235 /* ActionSheetViewController.swift */; };
+		D0E7BC811E4E2E6400A5E235 /* SliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BC781E4E2E6400A5E235 /* SliderViewController.swift */; };
+		D0E7BC821E4E2E6400A5E235 /* NumberPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BC791E4E2E6400A5E235 /* NumberPickerViewController.swift */; };
+		D0E7BC831E4E2E6400A5E235 /* BasePromptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BC7A1E4E2E6400A5E235 /* BasePromptViewController.swift */; };
+		D0E7BC881E4E2E7400A5E235 /* DragableCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BC851E4E2E7400A5E235 /* DragableCardViewController.swift */; };
+		D0E7BC891E4E2E7400A5E235 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BC861E4E2E7400A5E235 /* CardViewController.swift */; };
+		D0E7BC8A1E4E2E7400A5E235 /* AssignableCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BC871E4E2E7400A5E235 /* AssignableCardViewController.swift */; };
+		D0E7BC921E4E3D3600A5E235 /* DatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BC8E1E4E3D3600A5E235 /* DatePicker.swift */; };
+		D0E7BC931E4E3D3600A5E235 /* HizentraPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BC8F1E4E3D3600A5E235 /* HizentraPicker.swift */; };
+		D0E7BC941E4E3D3600A5E235 /* NumberPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BC901E4E3D3600A5E235 /* NumberPicker.swift */; };
+		D0E7BC951E4E3D3600A5E235 /* DoubleDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BC911E4E3D3600A5E235 /* DoubleDatePicker.swift */; };
+		D0E7BC9A1E4E3D4500A5E235 /* BaseNotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BC971E4E3D4500A5E235 /* BaseNotificationView.swift */; };
+		D0E7BC9B1E4E3D4500A5E235 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BC981E4E3D4500A5E235 /* SliderView.swift */; };
+		D0E7BC9C1E4E3D4500A5E235 /* ActionSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BC991E4E3D4500A5E235 /* ActionSheetView.swift */; };
+		D0E7BCA11E4E3D5E00A5E235 /* PlaceholderInteractiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BC9F1E4E3D5E00A5E235 /* PlaceholderInteractiveView.swift */; };
+		D0E7BCA21E4E3D5E00A5E235 /* PlaceholderAnimatableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BCA01E4E3D5E00A5E235 /* PlaceholderAnimatableView.swift */; };
+		D0E7BCA91E4E3D6D00A5E235 /* CheckMarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BCA41E4E3D6D00A5E235 /* CheckMarkView.swift */; };
+		D0E7BCAA1E4E3D6D00A5E235 /* CornersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BCA51E4E3D6D00A5E235 /* CornersView.swift */; };
+		D0E7BCAB1E4E3D6D00A5E235 /* SelectionCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BCA61E4E3D6D00A5E235 /* SelectionCircleView.swift */; };
+		D0E7BCAC1E4E3D6D00A5E235 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BCA71E4E3D6D00A5E235 /* CircleView.swift */; };
+		D0E7BCAD1E4E3D6D00A5E235 /* ArrowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BCA81E4E3D6D00A5E235 /* ArrowView.swift */; };
+		D0E7BCB31E4E3D9400A5E235 /* PlaceholderImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BCB01E4E3D9400A5E235 /* PlaceholderImageView.swift */; };
+		D0E7BCB41E4E3D9400A5E235 /* RoundedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BCB11E4E3D9400A5E235 /* RoundedImageView.swift */; };
+		D0E7BCB51E4E3D9400A5E235 /* PlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BCB21E4E3D9400A5E235 /* PlaceholderView.swift */; };
+		D0E7BCB91E4E3DB300A5E235 /* AvatarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BCB71E4E3DB300A5E235 /* AvatarCollectionViewCell.swift */; };
+		D0E7BCBA1E4E3DB300A5E235 /* PlaceholderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BCB81E4E3DB300A5E235 /* PlaceholderCollectionViewCell.swift */; };
+		D0E7BCBD1E4E3DBF00A5E235 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BCBC1E4E3DBF00A5E235 /* TableViewCell.swift */; };
+		D0E7BCC71E4E3DF000A5E235 /* SegmentedControlTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BCC11E4E3DF000A5E235 /* SegmentedControlTableViewCell.swift */; };
+		D0E7BCC81E4E3DF000A5E235 /* TextFieldTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BCC21E4E3DF000A5E235 /* TextFieldTableViewCell.swift */; };
+		D0E7BCC91E4E3DF000A5E235 /* TitleTextFieldTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BCC31E4E3DF000A5E235 /* TitleTextFieldTableViewCell.swift */; };
+		D0E7BCCA1E4E3DF000A5E235 /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BCC41E4E3DF000A5E235 /* BaseTableViewCell.swift */; };
+		D0E7BCCB1E4E3DF000A5E235 /* SelectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BCC51E4E3DF000A5E235 /* SelectionTableViewCell.swift */; };
+		D0E7BCCC1E4E3DF000A5E235 /* MasterDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BCC61E4E3DF000A5E235 /* MasterDetailTableViewCell.swift */; };
+		D0E7BCD01E4E3E0000A5E235 /* PlaceholderWidthButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BCCD1E4E3E0000A5E235 /* PlaceholderWidthButton.swift */; };
+		D0E7BCD11E4E3E0000A5E235 /* PlaceholderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BCCE1E4E3E0000A5E235 /* PlaceholderButton.swift */; };
+		D0E7BCD21E4E3E0000A5E235 /* PlaceholderBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BCCF1E4E3E0000A5E235 /* PlaceholderBarButtonItem.swift */; };
+		D0E7BCD61E4E3E3000A5E235 /* Tab2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BCD51E4E3E3000A5E235 /* Tab2ViewController.swift */; };
+		D0E7BCDA1E4E3E4900A5E235 /* TaskTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BCD71E4E3E4900A5E235 /* TaskTableViewCell.swift */; };
+		D0E7BCDB1E4E3E4900A5E235 /* TaskTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BCD81E4E3E4900A5E235 /* TaskTableView.swift */; };
+		D0E7BCDC1E4E3E4900A5E235 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BCD91E4E3E4900A5E235 /* ListViewController.swift */; };
+		D0E7BCE21E4E3E5C00A5E235 /* BackingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BCDF1E4E3E5C00A5E235 /* BackingViewController.swift */; };
+		D0E7BCE31E4E3E5C00A5E235 /* MainNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BCE01E4E3E5C00A5E235 /* MainNavigationViewController.swift */; };
+		D0E7BCE41E4E3E5C00A5E235 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BCE11E4E3E5C00A5E235 /* MainTabBarController.swift */; };
+		D0E7BCE71E4E3EA800A5E235 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7BCE61E4E3EA800A5E235 /* Protocols.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +115,6 @@
 
 /* Begin PBXFileReference section */
 		D0E7BBF31E4E2D8700A5E235 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D0E7BBF61E4E2D8700A5E235 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D0E7BBF81E4E2D8700A5E235 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D0E7BBFB1E4E2D8700A5E235 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D0E7BBFD1E4E2D8700A5E235 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0E7BC001E4E2D8700A5E235 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0E7BC021E4E2D8700A5E235 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +124,89 @@
 		D0E7BC121E4E2D8700A5E235 /* ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0E7BC161E4E2D8700A5E235 /* ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleUITests.swift; sourceTree = "<group>"; };
 		D0E7BC181E4E2D8700A5E235 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0E7BC241E4E2DBF00A5E235 /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		D0E7BC251E4E2DBF00A5E235 /* Array+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
+		D0E7BC261E4E2DBF00A5E235 /* UIButton+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Extensions.swift"; sourceTree = "<group>"; };
+		D0E7BC271E4E2DBF00A5E235 /* Calendar+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Calendar+Extensions.swift"; sourceTree = "<group>"; };
+		D0E7BC281E4E2DBF00A5E235 /* Int+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+Extensions.swift"; sourceTree = "<group>"; };
+		D0E7BC291E4E2DBF00A5E235 /* UIFont+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Extensions.swift"; sourceTree = "<group>"; };
+		D0E7BC2A1E4E2DBF00A5E235 /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		D0E7BC2B1E4E2DBF00A5E235 /* CoreGraphics+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CoreGraphics+Extensions.swift"; sourceTree = "<group>"; };
+		D0E7BC2C1E4E2DBF00A5E235 /* Dictionary+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dictionary+Extensions.swift"; sourceTree = "<group>"; };
+		D0E7BC2D1E4E2DBF00A5E235 /* Date+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		D0E7BC2E1E4E2DBF00A5E235 /* DateFormatter+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Extensions.swift"; sourceTree = "<group>"; };
+		D0E7BC3B1E4E2DCE00A5E235 /* Colour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colour.swift; sourceTree = "<group>"; };
+		D0E7BC3C1E4E2DCE00A5E235 /* KeyboardDelegates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardDelegates.swift; sourceTree = "<group>"; };
+		D0E7BC3D1E4E2DCE00A5E235 /* ProfileGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileGenerator.swift; sourceTree = "<group>"; };
+		D0E7BC3E1E4E2DCE00A5E235 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		D0E7BC3F1E4E2DCE00A5E235 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		D0E7BC401E4E2DCE00A5E235 /* GlobalFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalFunctions.swift; sourceTree = "<group>"; };
+		D0E7BC411E4E2DCE00A5E235 /* Constraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constraint.swift; sourceTree = "<group>"; };
+		D0E7BC4B1E4E2DE500A5E235 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		D0E7BC4E1E4E2DF100A5E235 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D0E7BC501E4E2DFF00A5E235 /* PlaceholderCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceholderCollectionView.swift; sourceTree = "<group>"; };
+		D0E7BC531E4E2E1100A5E235 /* PlaceholderGroupedTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceholderGroupedTableViewController.swift; sourceTree = "<group>"; };
+		D0E7BC541E4E2E1100A5E235 /* PlaceholderTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceholderTableViewController.swift; sourceTree = "<group>"; };
+		D0E7BC551E4E2E1100A5E235 /* SelectionTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectionTableViewController.swift; sourceTree = "<group>"; };
+		D0E7BC561E4E2E1100A5E235 /* BaseButtonGroupedTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseButtonGroupedTableViewController.swift; sourceTree = "<group>"; };
+		D0E7BC5C1E4E2E2200A5E235 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		D0E7BC5D1E4E2E2200A5E235 /* InterfaceCameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterfaceCameraViewController.swift; sourceTree = "<group>"; };
+		D0E7BC611E4E2E3200A5E235 /* PlaceholderPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceholderPageViewController.swift; sourceTree = "<group>"; };
+		D0E7BC621E4E2E3200A5E235 /* PlaceholderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceholderViewController.swift; sourceTree = "<group>"; };
+		D0E7BC631E4E2E3200A5E235 /* BaseButtonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseButtonViewController.swift; sourceTree = "<group>"; };
+		D0E7BC681E4E2E4400A5E235 /* EditPropertyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditPropertyViewController.swift; sourceTree = "<group>"; };
+		D0E7BC691E4E2E4400A5E235 /* EditMultiplePropertyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditMultiplePropertyViewController.swift; sourceTree = "<group>"; };
+		D0E7BC6D1E4E2E5400A5E235 /* AddNoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNoteViewController.swift; sourceTree = "<group>"; };
+		D0E7BC6E1E4E2E5400A5E235 /* PlaceholderWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceholderWebViewController.swift; sourceTree = "<group>"; };
+		D0E7BC721E4E2E6400A5E235 /* PlaceholderPresentableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceholderPresentableViewController.swift; sourceTree = "<group>"; };
+		D0E7BC731E4E2E6400A5E235 /* LoadingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		D0E7BC741E4E2E6400A5E235 /* DatePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
+		D0E7BC751E4E2E6400A5E235 /* DoubleDatePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoubleDatePickerViewController.swift; sourceTree = "<group>"; };
+		D0E7BC761E4E2E6400A5E235 /* NotificationPromptViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationPromptViewController.swift; sourceTree = "<group>"; };
+		D0E7BC771E4E2E6400A5E235 /* ActionSheetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionSheetViewController.swift; sourceTree = "<group>"; };
+		D0E7BC781E4E2E6400A5E235 /* SliderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderViewController.swift; sourceTree = "<group>"; };
+		D0E7BC791E4E2E6400A5E235 /* NumberPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberPickerViewController.swift; sourceTree = "<group>"; };
+		D0E7BC7A1E4E2E6400A5E235 /* BasePromptViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasePromptViewController.swift; sourceTree = "<group>"; };
+		D0E7BC851E4E2E7400A5E235 /* DragableCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragableCardViewController.swift; sourceTree = "<group>"; };
+		D0E7BC861E4E2E7400A5E235 /* CardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
+		D0E7BC871E4E2E7400A5E235 /* AssignableCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssignableCardViewController.swift; sourceTree = "<group>"; };
+		D0E7BC8E1E4E3D3600A5E235 /* DatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePicker.swift; sourceTree = "<group>"; };
+		D0E7BC8F1E4E3D3600A5E235 /* HizentraPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HizentraPicker.swift; sourceTree = "<group>"; };
+		D0E7BC901E4E3D3600A5E235 /* NumberPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberPicker.swift; sourceTree = "<group>"; };
+		D0E7BC911E4E3D3600A5E235 /* DoubleDatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoubleDatePicker.swift; sourceTree = "<group>"; };
+		D0E7BC971E4E3D4500A5E235 /* BaseNotificationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNotificationView.swift; sourceTree = "<group>"; };
+		D0E7BC981E4E3D4500A5E235 /* SliderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
+		D0E7BC991E4E3D4500A5E235 /* ActionSheetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionSheetView.swift; sourceTree = "<group>"; };
+		D0E7BC9F1E4E3D5E00A5E235 /* PlaceholderInteractiveView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceholderInteractiveView.swift; sourceTree = "<group>"; };
+		D0E7BCA01E4E3D5E00A5E235 /* PlaceholderAnimatableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceholderAnimatableView.swift; sourceTree = "<group>"; };
+		D0E7BCA41E4E3D6D00A5E235 /* CheckMarkView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckMarkView.swift; sourceTree = "<group>"; };
+		D0E7BCA51E4E3D6D00A5E235 /* CornersView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CornersView.swift; sourceTree = "<group>"; };
+		D0E7BCA61E4E3D6D00A5E235 /* SelectionCircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectionCircleView.swift; sourceTree = "<group>"; };
+		D0E7BCA71E4E3D6D00A5E235 /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		D0E7BCA81E4E3D6D00A5E235 /* ArrowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrowView.swift; sourceTree = "<group>"; };
+		D0E7BCB01E4E3D9400A5E235 /* PlaceholderImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceholderImageView.swift; sourceTree = "<group>"; };
+		D0E7BCB11E4E3D9400A5E235 /* RoundedImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedImageView.swift; sourceTree = "<group>"; };
+		D0E7BCB21E4E3D9400A5E235 /* PlaceholderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceholderView.swift; sourceTree = "<group>"; };
+		D0E7BCB71E4E3DB300A5E235 /* AvatarCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvatarCollectionViewCell.swift; sourceTree = "<group>"; };
+		D0E7BCB81E4E3DB300A5E235 /* PlaceholderCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceholderCollectionViewCell.swift; sourceTree = "<group>"; };
+		D0E7BCBC1E4E3DBF00A5E235 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		D0E7BCC11E4E3DF000A5E235 /* SegmentedControlTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentedControlTableViewCell.swift; sourceTree = "<group>"; };
+		D0E7BCC21E4E3DF000A5E235 /* TextFieldTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldTableViewCell.swift; sourceTree = "<group>"; };
+		D0E7BCC31E4E3DF000A5E235 /* TitleTextFieldTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleTextFieldTableViewCell.swift; sourceTree = "<group>"; };
+		D0E7BCC41E4E3DF000A5E235 /* BaseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
+		D0E7BCC51E4E3DF000A5E235 /* SelectionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectionTableViewCell.swift; sourceTree = "<group>"; };
+		D0E7BCC61E4E3DF000A5E235 /* MasterDetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterDetailTableViewCell.swift; sourceTree = "<group>"; };
+		D0E7BCCD1E4E3E0000A5E235 /* PlaceholderWidthButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceholderWidthButton.swift; sourceTree = "<group>"; };
+		D0E7BCCE1E4E3E0000A5E235 /* PlaceholderButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceholderButton.swift; sourceTree = "<group>"; };
+		D0E7BCCF1E4E3E0000A5E235 /* PlaceholderBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceholderBarButtonItem.swift; sourceTree = "<group>"; };
+		D0E7BCD51E4E3E3000A5E235 /* Tab2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tab2ViewController.swift; sourceTree = "<group>"; };
+		D0E7BCD71E4E3E4900A5E235 /* TaskTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskTableViewCell.swift; sourceTree = "<group>"; };
+		D0E7BCD81E4E3E4900A5E235 /* TaskTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskTableView.swift; sourceTree = "<group>"; };
+		D0E7BCD91E4E3E4900A5E235 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		D0E7BCDF1E4E3E5C00A5E235 /* BackingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackingViewController.swift; sourceTree = "<group>"; };
+		D0E7BCE01E4E3E5C00A5E235 /* MainNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainNavigationViewController.swift; sourceTree = "<group>"; };
+		D0E7BCE11E4E3E5C00A5E235 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		D0E7BCE61E4E3EA800A5E235 /* Protocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +257,11 @@
 		D0E7BBF51E4E2D8700A5E235 /* Example */ = {
 			isa = PBXGroup;
 			children = (
-				D0E7BBF61E4E2D8700A5E235 /* AppDelegate.swift */,
-				D0E7BBF81E4E2D8700A5E235 /* ViewController.swift */,
-				D0E7BBFA1E4E2D8700A5E235 /* Main.storyboard */,
-				D0E7BBFD1E4E2D8700A5E235 /* Assets.xcassets */,
-				D0E7BBFF1E4E2D8700A5E235 /* LaunchScreen.storyboard */,
-				D0E7BC021E4E2D8700A5E235 /* Info.plist */,
+				D0E7BC4E1E4E2DF100A5E235 /* AppDelegate.swift */,
+				D0E7BC8D1E4E3D1500A5E235 /* Base Classes */,
+				D0E7BCD41E4E3E1500A5E235 /* Components */,
+				D0E7BC4D1E4E2DE800A5E235 /* Model */,
+				D0E7BC491E4E2DD300A5E235 /* Utilities */,
 			);
 			path = Example;
 			sourceTree = "<group>";
@@ -123,6 +282,324 @@
 				D0E7BC181E4E2D8700A5E235 /* Info.plist */,
 			);
 			path = ExampleUITests;
+			sourceTree = "<group>";
+		};
+		D0E7BC3A1E4E2DC300A5E235 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D0E7BC241E4E2DBF00A5E235 /* UIView+Extensions.swift */,
+				D0E7BC251E4E2DBF00A5E235 /* Array+Extensions.swift */,
+				D0E7BC261E4E2DBF00A5E235 /* UIButton+Extensions.swift */,
+				D0E7BC271E4E2DBF00A5E235 /* Calendar+Extensions.swift */,
+				D0E7BC281E4E2DBF00A5E235 /* Int+Extensions.swift */,
+				D0E7BC291E4E2DBF00A5E235 /* UIFont+Extensions.swift */,
+				D0E7BC2A1E4E2DBF00A5E235 /* String+Extensions.swift */,
+				D0E7BC2B1E4E2DBF00A5E235 /* CoreGraphics+Extensions.swift */,
+				D0E7BC2C1E4E2DBF00A5E235 /* Dictionary+Extensions.swift */,
+				D0E7BC2D1E4E2DBF00A5E235 /* Date+Extensions.swift */,
+				D0E7BC2E1E4E2DBF00A5E235 /* DateFormatter+Extensions.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		D0E7BC491E4E2DD300A5E235 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				D0E7BC3B1E4E2DCE00A5E235 /* Colour.swift */,
+				D0E7BC3C1E4E2DCE00A5E235 /* KeyboardDelegates.swift */,
+				D0E7BC3D1E4E2DCE00A5E235 /* ProfileGenerator.swift */,
+				D0E7BC3E1E4E2DCE00A5E235 /* Constant.swift */,
+				D0E7BC3F1E4E2DCE00A5E235 /* Reachability.swift */,
+				D0E7BC401E4E2DCE00A5E235 /* GlobalFunctions.swift */,
+				D0E7BC411E4E2DCE00A5E235 /* Constraint.swift */,
+				D0E7BC3A1E4E2DC300A5E235 /* Extensions */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		D0E7BC4A1E4E2DDD00A5E235 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				D0E7BBFD1E4E2D8700A5E235 /* Assets.xcassets */,
+				D0E7BBFF1E4E2D8700A5E235 /* LaunchScreen.storyboard */,
+				D0E7BCE61E4E3EA800A5E235 /* Protocols.swift */,
+				D0E7BC021E4E2D8700A5E235 /* Info.plist */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		D0E7BC4D1E4E2DE800A5E235 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D0E7BC4B1E4E2DE500A5E235 /* Model.swift */,
+				D0E7BC4A1E4E2DDD00A5E235 /* Assets */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		D0E7BC521E4E2E0200A5E235 /* Collection View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D0E7BC501E4E2DFF00A5E235 /* PlaceholderCollectionView.swift */,
+			);
+			name = "Collection View Controllers";
+			sourceTree = "<group>";
+		};
+		D0E7BC5B1E4E2E1400A5E235 /* Table View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D0E7BC531E4E2E1100A5E235 /* PlaceholderGroupedTableViewController.swift */,
+				D0E7BC541E4E2E1100A5E235 /* PlaceholderTableViewController.swift */,
+				D0E7BC551E4E2E1100A5E235 /* SelectionTableViewController.swift */,
+				D0E7BC561E4E2E1100A5E235 /* BaseButtonGroupedTableViewController.swift */,
+			);
+			name = "Table View Controllers";
+			sourceTree = "<group>";
+		};
+		D0E7BC601E4E2E2500A5E235 /* Camera View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D0E7BC5C1E4E2E2200A5E235 /* CameraViewController.swift */,
+				D0E7BC5D1E4E2E2200A5E235 /* InterfaceCameraViewController.swift */,
+			);
+			name = "Camera View Controllers";
+			sourceTree = "<group>";
+		};
+		D0E7BC671E4E2E3600A5E235 /* Base View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D0E7BC611E4E2E3200A5E235 /* PlaceholderPageViewController.swift */,
+				D0E7BC621E4E2E3200A5E235 /* PlaceholderViewController.swift */,
+				D0E7BC631E4E2E3200A5E235 /* BaseButtonViewController.swift */,
+			);
+			name = "Base View Controllers";
+			sourceTree = "<group>";
+		};
+		D0E7BC6C1E4E2E4800A5E235 /* Edit Property View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D0E7BC681E4E2E4400A5E235 /* EditPropertyViewController.swift */,
+				D0E7BC691E4E2E4400A5E235 /* EditMultiplePropertyViewController.swift */,
+			);
+			name = "Edit Property View Controllers";
+			sourceTree = "<group>";
+		};
+		D0E7BC711E4E2E5700A5E235 /* Base Implementaions */ = {
+			isa = PBXGroup;
+			children = (
+				D0E7BC6D1E4E2E5400A5E235 /* AddNoteViewController.swift */,
+				D0E7BC6E1E4E2E5400A5E235 /* PlaceholderWebViewController.swift */,
+			);
+			name = "Base Implementaions";
+			sourceTree = "<group>";
+		};
+		D0E7BC841E4E2E6700A5E235 /* Presentable View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D0E7BC721E4E2E6400A5E235 /* PlaceholderPresentableViewController.swift */,
+				D0E7BC731E4E2E6400A5E235 /* LoadingViewController.swift */,
+				D0E7BC741E4E2E6400A5E235 /* DatePickerViewController.swift */,
+				D0E7BC751E4E2E6400A5E235 /* DoubleDatePickerViewController.swift */,
+				D0E7BC761E4E2E6400A5E235 /* NotificationPromptViewController.swift */,
+				D0E7BC771E4E2E6400A5E235 /* ActionSheetViewController.swift */,
+				D0E7BC781E4E2E6400A5E235 /* SliderViewController.swift */,
+				D0E7BC791E4E2E6400A5E235 /* NumberPickerViewController.swift */,
+				D0E7BC7A1E4E2E6400A5E235 /* BasePromptViewController.swift */,
+			);
+			name = "Presentable View Controllers";
+			sourceTree = "<group>";
+		};
+		D0E7BC8B1E4E2E7700A5E235 /* Card View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D0E7BC851E4E2E7400A5E235 /* DragableCardViewController.swift */,
+				D0E7BC861E4E2E7400A5E235 /* CardViewController.swift */,
+				D0E7BC871E4E2E7400A5E235 /* AssignableCardViewController.swift */,
+			);
+			name = "Card View Controllers";
+			sourceTree = "<group>";
+		};
+		D0E7BC8C1E4E3D1000A5E235 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D0E7BC8B1E4E2E7700A5E235 /* Card View Controllers */,
+				D0E7BC841E4E2E6700A5E235 /* Presentable View Controllers */,
+				D0E7BC711E4E2E5700A5E235 /* Base Implementaions */,
+				D0E7BC6C1E4E2E4800A5E235 /* Edit Property View Controllers */,
+				D0E7BC671E4E2E3600A5E235 /* Base View Controllers */,
+				D0E7BC601E4E2E2500A5E235 /* Camera View Controllers */,
+				D0E7BC5B1E4E2E1400A5E235 /* Table View Controllers */,
+				D0E7BC521E4E2E0200A5E235 /* Collection View Controllers */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		D0E7BC8D1E4E3D1500A5E235 /* Base Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D0E7BCD31E4E3E0400A5E235 /* Buttons */,
+				D0E7BCBF1E4E3DD000A5E235 /* Cells */,
+				D0E7BC9E1E4E3D5500A5E235 /* Views */,
+				D0E7BC8C1E4E3D1000A5E235 /* View Controllers */,
+			);
+			name = "Base Classes";
+			sourceTree = "<group>";
+		};
+		D0E7BC961E4E3D3A00A5E235 /* Pickers */ = {
+			isa = PBXGroup;
+			children = (
+				D0E7BC8E1E4E3D3600A5E235 /* DatePicker.swift */,
+				D0E7BC8F1E4E3D3600A5E235 /* HizentraPicker.swift */,
+				D0E7BC901E4E3D3600A5E235 /* NumberPicker.swift */,
+				D0E7BC911E4E3D3600A5E235 /* DoubleDatePicker.swift */,
+			);
+			name = Pickers;
+			sourceTree = "<group>";
+		};
+		D0E7BC9D1E4E3D4A00A5E235 /* Receiver Views */ = {
+			isa = PBXGroup;
+			children = (
+				D0E7BC971E4E3D4500A5E235 /* BaseNotificationView.swift */,
+				D0E7BC981E4E3D4500A5E235 /* SliderView.swift */,
+				D0E7BC991E4E3D4500A5E235 /* ActionSheetView.swift */,
+			);
+			name = "Receiver Views";
+			sourceTree = "<group>";
+		};
+		D0E7BC9E1E4E3D5500A5E235 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D0E7BCB61E4E3D9700A5E235 /* Base Views */,
+				D0E7BCAE1E4E3D7700A5E235 /* Drawn Views */,
+				D0E7BCA31E4E3D6300A5E235 /* Interactive Views */,
+				D0E7BC9D1E4E3D4A00A5E235 /* Receiver Views */,
+				D0E7BC961E4E3D3A00A5E235 /* Pickers */,
+			);
+			name = Views;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		D0E7BCA31E4E3D6300A5E235 /* Interactive Views */ = {
+			isa = PBXGroup;
+			children = (
+				D0E7BC9F1E4E3D5E00A5E235 /* PlaceholderInteractiveView.swift */,
+				D0E7BCA01E4E3D5E00A5E235 /* PlaceholderAnimatableView.swift */,
+			);
+			name = "Interactive Views";
+			sourceTree = "<group>";
+		};
+		D0E7BCAE1E4E3D7700A5E235 /* Drawn Views */ = {
+			isa = PBXGroup;
+			children = (
+				D0E7BCA41E4E3D6D00A5E235 /* CheckMarkView.swift */,
+				D0E7BCA51E4E3D6D00A5E235 /* CornersView.swift */,
+				D0E7BCA61E4E3D6D00A5E235 /* SelectionCircleView.swift */,
+				D0E7BCA71E4E3D6D00A5E235 /* CircleView.swift */,
+				D0E7BCA81E4E3D6D00A5E235 /* ArrowView.swift */,
+			);
+			name = "Drawn Views";
+			sourceTree = "<group>";
+		};
+		D0E7BCB61E4E3D9700A5E235 /* Base Views */ = {
+			isa = PBXGroup;
+			children = (
+				D0E7BCB01E4E3D9400A5E235 /* PlaceholderImageView.swift */,
+				D0E7BCB11E4E3D9400A5E235 /* RoundedImageView.swift */,
+				D0E7BCB21E4E3D9400A5E235 /* PlaceholderView.swift */,
+			);
+			name = "Base Views";
+			sourceTree = "<group>";
+		};
+		D0E7BCBB1E4E3DB600A5E235 /* Collection View Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D0E7BCB71E4E3DB300A5E235 /* AvatarCollectionViewCell.swift */,
+				D0E7BCB81E4E3DB300A5E235 /* PlaceholderCollectionViewCell.swift */,
+			);
+			name = "Collection View Cells";
+			sourceTree = "<group>";
+		};
+		D0E7BCBE1E4E3DC400A5E235 /* Base Table View Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D0E7BCBC1E4E3DBF00A5E235 /* TableViewCell.swift */,
+			);
+			name = "Base Table View Cell";
+			sourceTree = "<group>";
+		};
+		D0E7BCBF1E4E3DD000A5E235 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D0E7BCC01E4E3DDD00A5E235 /* Table View Cells */,
+				D0E7BCBB1E4E3DB600A5E235 /* Collection View Cells */,
+			);
+			name = Cells;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		D0E7BCC01E4E3DDD00A5E235 /* Table View Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D0E7BCC11E4E3DF000A5E235 /* SegmentedControlTableViewCell.swift */,
+				D0E7BCC21E4E3DF000A5E235 /* TextFieldTableViewCell.swift */,
+				D0E7BCC31E4E3DF000A5E235 /* TitleTextFieldTableViewCell.swift */,
+				D0E7BCC41E4E3DF000A5E235 /* BaseTableViewCell.swift */,
+				D0E7BCC51E4E3DF000A5E235 /* SelectionTableViewCell.swift */,
+				D0E7BCC61E4E3DF000A5E235 /* MasterDetailTableViewCell.swift */,
+				D0E7BCBE1E4E3DC400A5E235 /* Base Table View Cell */,
+			);
+			name = "Table View Cells";
+			sourceTree = "<group>";
+		};
+		D0E7BCD31E4E3E0400A5E235 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				D0E7BCCD1E4E3E0000A5E235 /* PlaceholderWidthButton.swift */,
+				D0E7BCCE1E4E3E0000A5E235 /* PlaceholderButton.swift */,
+				D0E7BCCF1E4E3E0000A5E235 /* PlaceholderBarButtonItem.swift */,
+			);
+			name = Buttons;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		D0E7BCD41E4E3E1500A5E235 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				D0E7BCE51E4E3E5F00A5E235 /* Parent */,
+				D0E7BCDD1E4E3E4C00A5E235 /* Tab 1 */,
+				D0E7BCDE1E4E3E5400A5E235 /* Tab 2 */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		D0E7BCDD1E4E3E4C00A5E235 /* Tab 1 */ = {
+			isa = PBXGroup;
+			children = (
+				D0E7BCD71E4E3E4900A5E235 /* TaskTableViewCell.swift */,
+				D0E7BCD81E4E3E4900A5E235 /* TaskTableView.swift */,
+				D0E7BCD91E4E3E4900A5E235 /* ListViewController.swift */,
+			);
+			name = "Tab 1";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		D0E7BCDE1E4E3E5400A5E235 /* Tab 2 */ = {
+			isa = PBXGroup;
+			children = (
+				D0E7BCD51E4E3E3000A5E235 /* Tab2ViewController.swift */,
+			);
+			name = "Tab 2";
+			sourceTree = "<group>";
+		};
+		D0E7BCE51E4E3E5F00A5E235 /* Parent */ = {
+			isa = PBXGroup;
+			children = (
+				D0E7BCDF1E4E3E5C00A5E235 /* BackingViewController.swift */,
+				D0E7BCE01E4E3E5C00A5E235 /* MainNavigationViewController.swift */,
+				D0E7BCE11E4E3E5C00A5E235 /* MainTabBarController.swift */,
+			);
+			name = Parent;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +671,7 @@
 					D0E7BBF21E4E2D8700A5E235 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 9353X7X97H;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 					D0E7BC061E4E2D8700A5E235 = {
@@ -237,7 +715,6 @@
 			files = (
 				D0E7BC011E4E2D8700A5E235 /* LaunchScreen.storyboard in Resources */,
 				D0E7BBFE1E4E2D8700A5E235 /* Assets.xcassets in Resources */,
-				D0E7BBFC1E4E2D8700A5E235 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,8 +739,89 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0E7BBF91E4E2D8700A5E235 /* ViewController.swift in Sources */,
-				D0E7BBF71E4E2D8700A5E235 /* AppDelegate.swift in Sources */,
+				D0E7BC801E4E2E6400A5E235 /* ActionSheetViewController.swift in Sources */,
+				D0E7BC9B1E4E3D4500A5E235 /* SliderView.swift in Sources */,
+				D0E7BC921E4E3D3600A5E235 /* DatePicker.swift in Sources */,
+				D0E7BC6A1E4E2E4400A5E235 /* EditPropertyViewController.swift in Sources */,
+				D0E7BC581E4E2E1100A5E235 /* PlaceholderTableViewController.swift in Sources */,
+				D0E7BC481E4E2DCE00A5E235 /* Constraint.swift in Sources */,
+				D0E7BC591E4E2E1100A5E235 /* SelectionTableViewController.swift in Sources */,
+				D0E7BCD01E4E3E0000A5E235 /* PlaceholderWidthButton.swift in Sources */,
+				D0E7BC2F1E4E2DBF00A5E235 /* UIView+Extensions.swift in Sources */,
+				D0E7BC351E4E2DBF00A5E235 /* String+Extensions.swift in Sources */,
+				D0E7BC641E4E2E3200A5E235 /* PlaceholderPageViewController.swift in Sources */,
+				D0E7BC651E4E2E3200A5E235 /* PlaceholderViewController.swift in Sources */,
+				D0E7BC811E4E2E6400A5E235 /* SliderViewController.swift in Sources */,
+				D0E7BC511E4E2DFF00A5E235 /* PlaceholderCollectionView.swift in Sources */,
+				D0E7BC451E4E2DCE00A5E235 /* Constant.swift in Sources */,
+				D0E7BC881E4E2E7400A5E235 /* DragableCardViewController.swift in Sources */,
+				D0E7BC941E4E3D3600A5E235 /* NumberPicker.swift in Sources */,
+				D0E7BCA11E4E3D5E00A5E235 /* PlaceholderInteractiveView.swift in Sources */,
+				D0E7BC371E4E2DBF00A5E235 /* Dictionary+Extensions.swift in Sources */,
+				D0E7BCCA1E4E3DF000A5E235 /* BaseTableViewCell.swift in Sources */,
+				D0E7BCA91E4E3D6D00A5E235 /* CheckMarkView.swift in Sources */,
+				D0E7BCCC1E4E3DF000A5E235 /* MasterDetailTableViewCell.swift in Sources */,
+				D0E7BC6F1E4E2E5400A5E235 /* AddNoteViewController.swift in Sources */,
+				D0E7BCB31E4E3D9400A5E235 /* PlaceholderImageView.swift in Sources */,
+				D0E7BC8A1E4E2E7400A5E235 /* AssignableCardViewController.swift in Sources */,
+				D0E7BC421E4E2DCE00A5E235 /* Colour.swift in Sources */,
+				D0E7BC381E4E2DBF00A5E235 /* Date+Extensions.swift in Sources */,
+				D0E7BCD61E4E3E3000A5E235 /* Tab2ViewController.swift in Sources */,
+				D0E7BCAB1E4E3D6D00A5E235 /* SelectionCircleView.swift in Sources */,
+				D0E7BC951E4E3D3600A5E235 /* DoubleDatePicker.swift in Sources */,
+				D0E7BCDB1E4E3E4900A5E235 /* TaskTableView.swift in Sources */,
+				D0E7BCB51E4E3D9400A5E235 /* PlaceholderView.swift in Sources */,
+				D0E7BC321E4E2DBF00A5E235 /* Calendar+Extensions.swift in Sources */,
+				D0E7BC7B1E4E2E6400A5E235 /* PlaceholderPresentableViewController.swift in Sources */,
+				D0E7BC9A1E4E3D4500A5E235 /* BaseNotificationView.swift in Sources */,
+				D0E7BC4F1E4E2DF100A5E235 /* AppDelegate.swift in Sources */,
+				D0E7BCDA1E4E3E4900A5E235 /* TaskTableViewCell.swift in Sources */,
+				D0E7BC311E4E2DBF00A5E235 /* UIButton+Extensions.swift in Sources */,
+				D0E7BCAA1E4E3D6D00A5E235 /* CornersView.swift in Sources */,
+				D0E7BC5F1E4E2E2200A5E235 /* InterfaceCameraViewController.swift in Sources */,
+				D0E7BCBA1E4E3DB300A5E235 /* PlaceholderCollectionViewCell.swift in Sources */,
+				D0E7BCAD1E4E3D6D00A5E235 /* ArrowView.swift in Sources */,
+				D0E7BCD21E4E3E0000A5E235 /* PlaceholderBarButtonItem.swift in Sources */,
+				D0E7BC431E4E2DCE00A5E235 /* KeyboardDelegates.swift in Sources */,
+				D0E7BC891E4E2E7400A5E235 /* CardViewController.swift in Sources */,
+				D0E7BC571E4E2E1100A5E235 /* PlaceholderGroupedTableViewController.swift in Sources */,
+				D0E7BCE31E4E3E5C00A5E235 /* MainNavigationViewController.swift in Sources */,
+				D0E7BCBD1E4E3DBF00A5E235 /* TableViewCell.swift in Sources */,
+				D0E7BC301E4E2DBF00A5E235 /* Array+Extensions.swift in Sources */,
+				D0E7BCC71E4E3DF000A5E235 /* SegmentedControlTableViewCell.swift in Sources */,
+				D0E7BC701E4E2E5500A5E235 /* PlaceholderWebViewController.swift in Sources */,
+				D0E7BC7E1E4E2E6400A5E235 /* DoubleDatePickerViewController.swift in Sources */,
+				D0E7BC7D1E4E2E6400A5E235 /* DatePickerViewController.swift in Sources */,
+				D0E7BCE21E4E3E5C00A5E235 /* BackingViewController.swift in Sources */,
+				D0E7BC831E4E2E6400A5E235 /* BasePromptViewController.swift in Sources */,
+				D0E7BC7C1E4E2E6400A5E235 /* LoadingViewController.swift in Sources */,
+				D0E7BC361E4E2DBF00A5E235 /* CoreGraphics+Extensions.swift in Sources */,
+				D0E7BC931E4E3D3600A5E235 /* HizentraPicker.swift in Sources */,
+				D0E7BC5E1E4E2E2200A5E235 /* CameraViewController.swift in Sources */,
+				D0E7BC5A1E4E2E1100A5E235 /* BaseButtonGroupedTableViewController.swift in Sources */,
+				D0E7BCC81E4E3DF000A5E235 /* TextFieldTableViewCell.swift in Sources */,
+				D0E7BCA21E4E3D5E00A5E235 /* PlaceholderAnimatableView.swift in Sources */,
+				D0E7BC341E4E2DBF00A5E235 /* UIFont+Extensions.swift in Sources */,
+				D0E7BC441E4E2DCE00A5E235 /* ProfileGenerator.swift in Sources */,
+				D0E7BC6B1E4E2E4400A5E235 /* EditMultiplePropertyViewController.swift in Sources */,
+				D0E7BC391E4E2DBF00A5E235 /* DateFormatter+Extensions.swift in Sources */,
+				D0E7BCAC1E4E3D6D00A5E235 /* CircleView.swift in Sources */,
+				D0E7BC661E4E2E3200A5E235 /* BaseButtonViewController.swift in Sources */,
+				D0E7BC471E4E2DCE00A5E235 /* GlobalFunctions.swift in Sources */,
+				D0E7BC4C1E4E2DE500A5E235 /* Model.swift in Sources */,
+				D0E7BC9C1E4E3D4500A5E235 /* ActionSheetView.swift in Sources */,
+				D0E7BC461E4E2DCE00A5E235 /* Reachability.swift in Sources */,
+				D0E7BCE41E4E3E5C00A5E235 /* MainTabBarController.swift in Sources */,
+				D0E7BCC91E4E3DF000A5E235 /* TitleTextFieldTableViewCell.swift in Sources */,
+				D0E7BCB41E4E3D9400A5E235 /* RoundedImageView.swift in Sources */,
+				D0E7BCDC1E4E3E4900A5E235 /* ListViewController.swift in Sources */,
+				D0E7BCCB1E4E3DF000A5E235 /* SelectionTableViewCell.swift in Sources */,
+				D0E7BC7F1E4E2E6400A5E235 /* NotificationPromptViewController.swift in Sources */,
+				D0E7BC821E4E2E6400A5E235 /* NumberPickerViewController.swift in Sources */,
+				D0E7BCD11E4E3E0000A5E235 /* PlaceholderButton.swift in Sources */,
+				D0E7BC331E4E2DBF00A5E235 /* Int+Extensions.swift in Sources */,
+				D0E7BCE71E4E3EA800A5E235 /* Protocols.swift in Sources */,
+				D0E7BCB91E4E3DB300A5E235 /* AvatarCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,14 +857,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D0E7BBFA1E4E2D8700A5E235 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D0E7BBFB1E4E2D8700A5E235 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D0E7BBFF1E4E2D8700A5E235 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -415,11 +965,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 9353X7X97H;
 				INFOPLIST_FILE = Example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Kueper.Example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -428,6 +980,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 9353X7X97H;
 				INFOPLIST_FILE = Example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
