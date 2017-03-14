@@ -33,7 +33,7 @@ class MainTabBarController: UITabBarController {
     }
     
     internal func setupViews() {
-        self.setViewControllers([listVC, cardVC], animated: true)
+        self.setViewControllers([cardVC, listVC], animated: true)
         
         self.tabBar.isTranslucent = false
         self.tabBar.items?[0].title = NSLocalizedString("List", comment: "First tab bar icon title")
